@@ -24,7 +24,7 @@ const Projects = () => {
                 className="w-full lg:w-1/4"
               >
                 <img
-                  src={project.img}
+                  src={project.image}
                   alt={project.title}
                   width={150}
                   height={150}
