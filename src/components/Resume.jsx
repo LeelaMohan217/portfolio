@@ -30,7 +30,7 @@ const Resume = () => {
               href="/Anuradha_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 w-full sm:w-auto px-6 py-3 rounded-xl border border-purple-700 text-purple-300 hover:bg-purple-900 hover:text-white transition duration-300"
+              className="flex items-center justify-center gap-2 w-full sm:w-auto px-6 py-3 rounded-xl border border-purple-700 text-purple-300 hover:scale-105 transition-transform duration-300"
             >
               <HiEye className="text-lg" />
               <span>View Resume</span>
@@ -39,7 +39,7 @@ const Resume = () => {
             <a
               href="/Anuradha_Resume.pdf"
               download
-              className="flex items-center justify-center gap-2 w-full sm:w-auto px-6 py-3 rounded-xl border border-purple-700 text-purple-300 hover:bg-purple-900 hover:text-white transition duration-300"
+              className="flex items-center justify-center gap-2 w-full sm:w-auto px-6 py-3 rounded-xl border border-purple-700 text-purple-300 hover:scale-105 transition-transform duration-300"
             >
               <HiDownload className="text-lg" />
               <span>Download PDF</span>
