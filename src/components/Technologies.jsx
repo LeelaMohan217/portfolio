@@ -1,5 +1,4 @@
 import React from "react";
-import { SiMongodb } from "react-icons/si";
 import { SiPython } from "react-icons/si";
 import { SiDjango } from "react-icons/si";
 import { SiLinux } from "react-icons/si";
@@ -49,14 +48,6 @@ const Technologies = () => {
             className="rounded-2xl border-4 border-neutral-800 p-4"
           >
             <SiPython className="text-7xl text-blue-700" />
-          </motion.div>
-          <motion.div
-            variants={iconVariants(2)}
-            initial="intial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4"
-          >
-            <SiMongodb className="text-7xl text-green-500" />
           </motion.div>
           <motion.div
             variants={iconVariants(2.5)}
