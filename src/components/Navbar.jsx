@@ -13,9 +13,24 @@ const Navbar = () => {
           </p>
           {/* <img className="mx-2 w-10" src={logo} alt="logo" /> */}
         </div>
+        {/* Social Icons with Links */}
         <div className="flex m-8 items-center justify-center gap-4 text-2xl text-white">
-          <FaLinkedin />
-          <FaGithub />
+          <a
+            href="https://www.linkedin.com/in/anuradha-thotakura/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-cyan-400 transition-colors duration-300"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://github.com/AnuradhaThotakura"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-cyan-400 transition-colors duration-300"
+          >
+            <FaGithub />
+          </a>
         </div>
       </nav>
     </>
